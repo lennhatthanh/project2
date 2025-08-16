@@ -8,6 +8,7 @@
 *::after {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Glory", sans-serif;
     position: relative;
@@ -76,11 +77,13 @@ body {
     opacity: 1;
     border-radius: 8px;
     background-color: rgba(71, 59, 240, 1);
-    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0px 21px 0px 20px;
+    justify-content: space-between;
 }
 
 .btn p {
-    position: absolute;
     color: rgba(255, 255, 255, 1);
     font-family: Gilroy;
     font-weight: 700;
@@ -99,7 +102,6 @@ body {
     top: 24px;
     left: 185px;
     border-width: 2px;
-    position: absolute;
 }
 
 header {
@@ -208,6 +210,7 @@ li > a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 120px;
 }
 .services .services__header {
     display: flex;
@@ -264,8 +267,9 @@ li > a {
 .services__list nav {
     height: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    padding: 0px 19px 0px 22px;
+    justify-content: space-between;
 }
 
 nav h1 {
@@ -287,7 +291,6 @@ nav svg {
 .features {
     height: 849px;
     background: rgba(244, 247, 250, 1);
-    margin-top: 120px;
     padding-top: 92px;
 }
 
@@ -343,6 +346,7 @@ nav svg {
 .video img {
     height: 419px;
     width: 541px;
+    border-radius: 8px;
 }
 .video .features__video {
     position: relative;
@@ -366,12 +370,15 @@ nav svg {
     display: flex;
     gap: 22px;
 }
+.features__item svg {
+    margin-top: 9px;
+}
 
 .features__item .features__item-hero__title-block {
-    width: min-features(124px);
+    min-width: 124px;
     height: 32px;
     opacity: 1;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 21px;
     line-height: 32px;
     letter-spacing: -0.5px;
@@ -432,11 +439,12 @@ span {
     opacity: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
 .testimonials__text {
+    margin-top: 54px;
+    margin-bottom: 50px;
     width: 324px;
     height: 102px;
     opacity: 1;
@@ -466,9 +474,6 @@ span {
     left: 245px;
     top: 50%;
     transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .cta_form_left h1 {
@@ -480,7 +485,7 @@ span {
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -1.2px;
-
+    margin: 46px 0px 18px 0px;
     color: rgba(255, 255, 255, 1);
 }
 .cta_form_left p {
@@ -507,11 +512,11 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-width: 0px, 0px, 0px, 0px;
+    gap: 15px;
     border-style: solid;
     border-color: rgba(231, 233, 237, 1);
     background: rgba(255, 255, 255, 1);
-    padding: 30px 25px;
+    padding: 30px 25px 28px 25px;
     box-shadow: 0px 34px 33px -23px rgba(22, 28, 45, 0.1295);
     border: 1px solid rgba(231, 233, 237, 1);
 }
@@ -544,6 +549,7 @@ select {
     color: rgba(22, 28, 45, 1);
     border: 1px solid rgba(231, 233, 237, 1);
     padding: 12px 18px;
+    appearance: none;
 }
 
 .cta_form_right button {
@@ -670,4 +676,15 @@ footer div:last-child .text p {
 .footer .right {
     display: flex;
     gap: 30px;
+}
+
+.cta_form_right .cta_form_right-select {
+    position: relative;
+}
+
+.cta_form_right-select svg {
+    position: absolute;
+    right: 14.4px;
+    top: 50%;
+    transform: translatey(-50%);
 }
