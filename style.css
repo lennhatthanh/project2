@@ -38,15 +38,16 @@ body {
 }
 
 .hero .hero__title-block {
-    width: 589px;
+    width: 100%;
+    max-width: 589px;
     height: 349px;
-    margin-left: 244px;
-    margin-top: 184px;
+    left: 244px;
+    top: 184px;
     position: absolute;
 }
 
 .hero .hero__title-block > h1 {
-    width: 589px;
+    max-width: 589px;
     height: 130px;
     opacity: 1;
     font-weight: 700;
@@ -59,7 +60,7 @@ body {
 .hero .hero__title-block > p {
     margin-top: 29px;
     margin-right: 102px;
-    width: 487px;
+    max-width: 487px;
     height: 96px;
     top: 159px;
     opacity: 0.65;
@@ -72,7 +73,7 @@ body {
 }
 
 .hero .hero__title-block .btn {
-    width: 218px;
+    max-width: 218px;
     height: 59px;
     opacity: 1;
     border-radius: 8px;
@@ -105,7 +106,8 @@ body {
 }
 
 header {
-    width: 1450px;
+    width: 100%;
+    max-width: 1450px;
     height: 50px;
     opacity: 1;
     left: 50%;
@@ -115,6 +117,7 @@ header {
     z-index: 10;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 .header__logo-nav h1 {
@@ -179,7 +182,8 @@ li > a {
 }
 
 .stats div {
-    width: 285px;
+    width: 100%;
+    max-width: 285px;
     height: 58px;
     display: flex;
     justify-content: space-around;
@@ -187,7 +191,7 @@ li > a {
     opacity: 1;
 }
 .stats div p {
-    width: 174px;
+    max-width: 174px;
     opacity: 0.7;
 }
 .stats div h1 {
@@ -196,13 +200,13 @@ li > a {
     font-size: 48px;
     line-height: 58px;
     letter-spacing: -1.8px;
-    width: 81px;
+    max-width: 81px;
     height: 58px;
     opacity: 1;
     text-align: center;
 }
 .services {
-    width: 1109px;
+    max-width: 1109px;
     height: 447px;
     margin: 0 auto;
     margin-top: 80px;
@@ -210,13 +214,13 @@ li > a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 .services .services__header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 769px;
+    max-width: 769px;
     height: 129px;
     opacity: 1;
 }
@@ -229,7 +233,7 @@ li > a {
 }
 
 .services__header p {
-    width: 589px;
+    max-width: 589px;
     height: 64px;
     opacity: 0.7;
     font-weight: 400;
@@ -246,7 +250,7 @@ li > a {
     justify-content: space-between;
 }
 .services__list div {
-    width: 255px;
+    max-width: 255px;
     height: 226px;
     opacity: 1;
     display: flex;
@@ -257,7 +261,7 @@ li > a {
 }
 
 .services__list img {
-    width: 255px;
+    max-width: 255px;
     height: 167px;
     opacity: 1;
     border-width: 1px;
@@ -280,7 +284,7 @@ nav h1 {
 }
 
 nav svg {
-    width: 15;
+    max-width: 15;
     height: 10;
     opacity: 1;
     top: 192px;
@@ -295,7 +299,7 @@ nav svg {
 }
 
 .features .hero__title-block {
-    width: 769px;
+    max-width: 769px;
     height: 129px;
     opacity: 1;
     margin: 0 auto;
@@ -307,7 +311,7 @@ nav svg {
 }
 
 .features .hero__title-block h1 {
-    width: 769px;
+    max-width: 769px;
     height: 48px;
     opacity: 1;
     font-weight: 700;
@@ -319,7 +323,7 @@ nav svg {
 }
 
 .features .hero__title-block p {
-    width: 589px;
+    max-width: 589px;
     height: 64px;
     opacity: 0.7;
     font-family: Gilroy;
@@ -337,7 +341,7 @@ nav svg {
     margin-top: 74px;
     height: 419px;
     display: flex;
-    width: 100%;
+    max-width: 100%;
     justify-content: center;
     gap: 95px;
     align-items: center;
@@ -345,7 +349,7 @@ nav svg {
 
 .video img {
     height: 419px;
-    width: 541px;
+    max-width: 541px;
     border-radius: 8px;
 }
 .video .features__video {
@@ -360,7 +364,7 @@ nav svg {
 
 .video .features__list {
     height: 360px;
-    width: 404px;
+    max-width: 404px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -385,7 +389,7 @@ nav svg {
     color: rgba(22, 28, 45, 1);
 }
 .features__item .features__item-text {
-    width: 339px;
+    max-width: 339px;
     height: 58px;
     opacity: 0.7;
     font-weight: 400px;
@@ -407,7 +411,7 @@ nav svg {
 
 .alert p,
 span {
-    width: 469px;
+    max-width: 469px;
     opacity: 1;
     font-weight: 400;
     font-size: 17px;
@@ -423,7 +427,7 @@ span {
 }
 
 .testimonials {
-    width: 1089px;
+    max-width: 1089px;
     height: 294px;
     opacity: 1;
     margin: 0 auto;
@@ -434,7 +438,7 @@ span {
 }
 
 .testimonials__card {
-    width: 324px;
+    max-width: 324px;
     height: 290px;
     opacity: 1;
     display: flex;
@@ -445,7 +449,7 @@ span {
 .testimonials__text {
     margin-top: 54px;
     margin-bottom: 50px;
-    width: 324px;
+    max-width: 324px;
     height: 102px;
     opacity: 1;
     font-weight: 700;
@@ -462,22 +466,21 @@ span {
     background-color: gray;
     background-repeat: repeat;
     background-position: center;
-    position: relative;
     background-size: 1600px;
+    display: flex;
+    align-items: center;
+    padding: 0px 245px;
+    justify-content: space-between;
 }
 
 .cta_form_left {
-    width: 429px;
+    max-width: 429px;
     height: 343px;
     opacity: 1;
-    position: absolute;
-    left: 245px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .cta_form_left h1 {
-    width: 429px;
+    max-width: 429px;
     height: 96px;
     opacity: 1;
     font-family: Gilroy;
@@ -489,7 +492,7 @@ span {
     color: rgba(255, 255, 255, 1);
 }
 .cta_form_left p {
-    width: 412px;
+    max-width: 412px;
     height: 96px;
     opacity: 0.65;
     font-weight: 400;
@@ -500,15 +503,12 @@ span {
 }
 
 .cta_form_right {
-    width: 350px;
+    max-width: 350px;
     height: 499px;
     opacity: 1;
     border-width: 1px;
     border-radius: 10px;
-    position: absolute;
     right: 245px;
-    top: 50%;
-    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -522,7 +522,7 @@ span {
 }
 
 .cta_form_right div {
-    width: 300px;
+    max-width: 300px;
     height: 78px;
     opacity: 1;
     display: flex;
@@ -537,7 +537,7 @@ span {
 }
 .cta_form_right div input,
 select {
-    width: 300px;
+    max-width: 300px;
     height: 50px;
     opacity: 1;
     border-radius: 8px;
@@ -553,7 +553,7 @@ select {
 }
 
 .cta_form_right button {
-    width: 300px;
+    max-width: 300px;
     height: 59px;
     opacity: 1;
     border-radius: 8px;
@@ -569,7 +569,7 @@ select {
 }
 
 .cta {
-    width: 1110px;
+    max-width: 1110px;
     height: 88px;
     opacity: 1;
     margin: 77px auto;
@@ -578,7 +578,7 @@ select {
 }
 
 .cta_left {
-    width: 508px;
+    max-width: 508px;
     height: 88px;
     opacity: 1;
     font-weight: 700;
@@ -608,7 +608,8 @@ select {
     border: 1px solid rgba(231, 233, 237, 1);
 }
 .cta_right button {
-    width: 170px;
+    width: 100%;
+    max-width: 170px;
     height: 59px;
     opacity: 1;
     border-radius: 8px;
@@ -665,7 +666,7 @@ footer div:last-child .text p {
 .footer {
     margin-top: 108px;
     margin-bottom: 36px;
-    width: 1111px;
+    max-width: 1111px;
     height: 58px;
     opacity: 1;
     display: flex;
